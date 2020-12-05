@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		D62F6AA9257A4BDB00B1AF32 /* ViewControllerGallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62F6AA8257A4BDB00B1AF32 /* ViewControllerGallery.swift */; };
+		D65C38DA257C038300E5D6C8 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65C38D9257C038300E5D6C8 /* MyCollectionViewCell.swift */; };
 		D66B6FBE25584B61003ADEE1 /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66B6FBD25584B61003ADEE1 /* MovieTableViewCell.swift */; };
 		D6EA703925727E9400BF03AC /* MoviesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EA703825727E9400BF03AC /* MoviesTableViewController.swift */; };
 		D6EA703D25727EF700BF03AC /* MovieDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EA703C25727EF700BF03AC /* MovieDetailVC.swift */; };
@@ -39,6 +40,7 @@
 
 /* Begin PBXFileReference section */
 		D62F6AA8257A4BDB00B1AF32 /* ViewControllerGallery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerGallery.swift; sourceTree = "<group>"; };
+		D65C38D9257C038300E5D6C8 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
 		D66B6FBD25584B61003ADEE1 /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
 		D6EA703825727E9400BF03AC /* MoviesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesTableViewController.swift; sourceTree = "<group>"; };
 		D6EA703C25727EF700BF03AC /* MovieDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailVC.swift; sourceTree = "<group>"; };
@@ -135,6 +137,7 @@
 				D6EA703F25727F5B00BF03AC /* Movie.swift */,
 				D66B6FBD25584B61003ADEE1 /* MovieTableViewCell.swift */,
 				D62F6AA8257A4BDB00B1AF32 /* ViewControllerGallery.swift */,
+				D65C38D9257C038300E5D6C8 /* MyCollectionViewCell.swift */,
 			);
 			path = MobDev;
 			sourceTree = "<group>";
@@ -228,6 +231,7 @@
 			files = (
 				D6EA704025727F5B00BF03AC /* Movie.swift in Sources */,
 				D6EF20E4253276EA00830A2C /* ViewController.swift in Sources */,
+				D65C38DA257C038300E5D6C8 /* MyCollectionViewCell.swift in Sources */,
 				D6EF20E0253276EA00830A2C /* AppDelegate.swift in Sources */,
 				D6EF20E2253276EA00830A2C /* SceneDelegate.swift in Sources */,
 				D62F6AA9257A4BDB00B1AF32 /* ViewControllerGallery.swift in Sources */,
