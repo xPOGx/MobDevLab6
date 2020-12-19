@@ -10,6 +10,10 @@
 		D62F6AA9257A4BDB00B1AF32 /* ViewControllerGallery.swift in Sources */ = {isa = PBXBuildFile; fileRef = D62F6AA8257A4BDB00B1AF32 /* ViewControllerGallery.swift */; };
 		D65C38DA257C038300E5D6C8 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D65C38D9257C038300E5D6C8 /* MyCollectionViewCell.swift */; };
 		D66B6FBE25584B61003ADEE1 /* MovieTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D66B6FBD25584B61003ADEE1 /* MovieTableViewCell.swift */; };
+		D6DBC7E5258E533A00734ED4 /* GraphViewContoller.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DBC7E4258E533A00734ED4 /* GraphViewContoller.swift */; };
+		D6DBC7E9258E5DC300734ED4 /* PieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6DBC7E8258E5DC300734ED4 /* PieViewController.swift */; };
+		D6DBC82D258E6DE000734ED4 /* Charts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6DBC828258E6DD400734ED4 /* Charts.framework */; };
+		D6DBC82E258E6DE000734ED4 /* Charts.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D6DBC828258E6DD400734ED4 /* Charts.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D6EA703925727E9400BF03AC /* MoviesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EA703825727E9400BF03AC /* MoviesTableViewController.swift */; };
 		D6EA703D25727EF700BF03AC /* MovieDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EA703C25727EF700BF03AC /* MovieDetailVC.swift */; };
 		D6EA704025727F5B00BF03AC /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6EA703F25727F5B00BF03AC /* Movie.swift */; };
@@ -38,10 +42,44 @@
 		D6EF20EC2532770B00830A2C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6EF20EA2532770B00830A2C /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		D6DBC827258E6DD400734ED4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6DBC822258E6DD400734ED4 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 65AD9E95D9ED4DC0BD73A743;
+			remoteInfo = Charts;
+		};
+		D6DBC829258E6DD400734ED4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D6DBC822258E6DD400734ED4 /* Charts.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 1CBBC58C6CE1EBEE9852CE41;
+			remoteInfo = ChartsTests;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D6DBC7FA258E628B00734ED4 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				D6DBC82E258E6DE000734ED4 /* Charts.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		D62F6AA8257A4BDB00B1AF32 /* ViewControllerGallery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerGallery.swift; sourceTree = "<group>"; };
 		D65C38D9257C038300E5D6C8 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
 		D66B6FBD25584B61003ADEE1 /* MovieTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieTableViewCell.swift; sourceTree = "<group>"; };
+		D6DBC7E4258E533A00734ED4 /* GraphViewContoller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphViewContoller.swift; sourceTree = "<group>"; };
+		D6DBC7E8258E5DC300734ED4 /* PieViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PieViewController.swift; sourceTree = "<group>"; };
+		D6DBC822258E6DD400734ED4 /* Charts.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Charts.xcodeproj; path = "../Charts-master/Charts.xcodeproj"; sourceTree = "<group>"; };
 		D6EA703825727E9400BF03AC /* MoviesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesTableViewController.swift; sourceTree = "<group>"; };
 		D6EA703C25727EF700BF03AC /* MovieDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieDetailVC.swift; sourceTree = "<group>"; };
 		D6EA703F25727F5B00BF03AC /* Movie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
@@ -76,12 +114,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6DBC82D258E6DE000734ED4 /* Charts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D6DBC7F7258E628B00734ED4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D6DBC822258E6DD400734ED4 /* Charts.xcodeproj */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D6DBC823258E6DD400734ED4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D6DBC828258E6DD400734ED4 /* Charts.framework */,
+				D6DBC82A258E6DD400734ED4 /* ChartsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		D6EA704225727FD700BF03AC /* Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -110,6 +166,7 @@
 			children = (
 				D6EF20DE253276EA00830A2C /* MobDev */,
 				D6EF20DD253276EA00830A2C /* Products */,
+				D6DBC7F7258E628B00734ED4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -138,6 +195,8 @@
 				D66B6FBD25584B61003ADEE1 /* MovieTableViewCell.swift */,
 				D62F6AA8257A4BDB00B1AF32 /* ViewControllerGallery.swift */,
 				D65C38D9257C038300E5D6C8 /* MyCollectionViewCell.swift */,
+				D6DBC7E4258E533A00734ED4 /* GraphViewContoller.swift */,
+				D6DBC7E8258E5DC300734ED4 /* PieViewController.swift */,
 			);
 			path = MobDev;
 			sourceTree = "<group>";
@@ -152,6 +211,7 @@
 				D6EF20D8253276EA00830A2C /* Sources */,
 				D6EF20D9253276EA00830A2C /* Frameworks */,
 				D6EF20DA253276EA00830A2C /* Resources */,
+				D6DBC7FA258E628B00734ED4 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -187,12 +247,35 @@
 			mainGroup = D6EF20D3253276EA00830A2C;
 			productRefGroup = D6EF20DD253276EA00830A2C /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = D6DBC823258E6DD400734ED4 /* Products */;
+					ProjectRef = D6DBC822258E6DD400734ED4 /* Charts.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				D6EF20DB253276EA00830A2C /* MobDev */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		D6DBC828258E6DD400734ED4 /* Charts.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = Charts.framework;
+			remoteRef = D6DBC827258E6DD400734ED4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		D6DBC82A258E6DD400734ED4 /* ChartsTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ChartsTests.xctest;
+			remoteRef = D6DBC829258E6DD400734ED4 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		D6EF20DA253276EA00830A2C /* Resources */ = {
@@ -236,7 +319,9 @@
 				D6EF20E2253276EA00830A2C /* SceneDelegate.swift in Sources */,
 				D62F6AA9257A4BDB00B1AF32 /* ViewControllerGallery.swift in Sources */,
 				D6EA703925727E9400BF03AC /* MoviesTableViewController.swift in Sources */,
+				D6DBC7E9258E5DC300734ED4 /* PieViewController.swift in Sources */,
 				D6EA703D25727EF700BF03AC /* MovieDetailVC.swift in Sources */,
+				D6DBC7E5258E533A00734ED4 /* GraphViewContoller.swift in Sources */,
 				D66B6FBE25584B61003ADEE1 /* MovieTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -266,6 +351,7 @@
 		D6EF20EE2532770B00830A2C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
@@ -327,6 +413,7 @@
 		D6EF20EF2532770B00830A2C /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
